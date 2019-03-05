@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 6fe00aaad427bd64f947a05998b24047
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _Wheat_Field_v1_SG
+    100002: _Wheat_Field_v1_SG1
+    100004: _Wheat_Field_v1_SG2
+    100006: _Wheat_Field_v1_SG3
+    100008: _Wheat_Field_v1_SG4
+    100010: _Wheat_Field_v1_SG5
+    100012: _Wheat_Field_v1_SG6
+    100014: _Wheat_Field_v1_SG7
+    100016: _Wheat_Field_v1_SG8
+    100018: //RootNode
+    100020: Wheat:_Wheat_Field_v1_max2010_it2:_Wheat_Field_v1_SG
+    400000: _Wheat_Field_v1_SG
+    400002: _Wheat_Field_v1_SG1
+    400004: _Wheat_Field_v1_SG2
+    400006: _Wheat_Field_v1_SG3
+    400008: _Wheat_Field_v1_SG4
+    400010: _Wheat_Field_v1_SG5
+    400012: _Wheat_Field_v1_SG6
+    400014: _Wheat_Field_v1_SG7
+    400016: _Wheat_Field_v1_SG8
+    400018: //RootNode
+    400020: Wheat:_Wheat_Field_v1_max2010_it2:_Wheat_Field_v1_SG
+    2100000: Wheat__Wheat_Field_v1_max2010_it2__Wheat_Field_v2
+    2300000: _Wheat_Field_v1_SG
+    2300002: _Wheat_Field_v1_SG1
+    2300004: _Wheat_Field_v1_SG2
+    2300006: _Wheat_Field_v1_SG3
+    2300008: _Wheat_Field_v1_SG4
+    2300010: _Wheat_Field_v1_SG5
+    2300012: _Wheat_Field_v1_SG6
+    2300014: _Wheat_Field_v1_SG7
+    2300016: _Wheat_Field_v1_SG8
+    2300018: Wheat:_Wheat_Field_v1_max2010_it2:_Wheat_Field_v1_SG
+    3300000: _Wheat_Field_v1_SG
+    3300002: _Wheat_Field_v1_SG1
+    3300004: _Wheat_Field_v1_SG2
+    3300006: _Wheat_Field_v1_SG3
+    3300008: _Wheat_Field_v1_SG4
+    3300010: _Wheat_Field_v1_SG5
+    3300012: _Wheat_Field_v1_SG6
+    3300014: _Wheat_Field_v1_SG7
+    3300016: _Wheat_Field_v1_SG8
+    3300018: Wheat:_Wheat_Field_v1_max2010_it2:_Wheat_Field_v1_SG
+    4300000: Wheat:_Wheat_Field_v1_max2010_it2:_Wheat_Field_v1_SG
+    4300002: _Wheat_Field_v1_SG
+    4300004: _Wheat_Field_v1_SG1
+    4300006: _Wheat_Field_v1_SG2
+    4300008: _Wheat_Field_v1_SG3
+    4300010: _Wheat_Field_v1_SG4
+    4300012: _Wheat_Field_v1_SG5
+    4300014: _Wheat_Field_v1_SG6
+    4300016: _Wheat_Field_v1_SG7
+    4300018: _Wheat_Field_v1_SG8
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10458_Wheat_Field_v1_Diffuse
+    second: {fileID: 2800000, guid: b58739c0afbbb2b42a2a78c32f64343a, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
