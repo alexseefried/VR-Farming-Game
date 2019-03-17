@@ -167,22 +167,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: metal_roof_tex
-    second: {fileID: 2800000, guid: 67d530dbe81fbf445aa7b6ea1c9c6563, type: 3}
+    second: {fileID: 2800000, guid: a952ec0599773a44eb213e9ccb708ada, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: storage_wood_tex
-    second: {fileID: 2800000, guid: 51c03677117fbcd42916f9b4c803bc0e, type: 3}
+    second: {fileID: 2800000, guid: 62ef9e81671d8be4ab1f1975f2210a48, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: straw_tex
-    second: {fileID: 2800000, guid: 48fe0c22ed93e8c4588075bced672102, type: 3}
+    second: {fileID: 2800000, guid: 8af3a51d45ec87945a5f783995563094, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: wood
-    second: {fileID: 2800000, guid: 9fa1b0b2ca60c1c4d9366fb3012bb5ca, type: 3}
+    second: {fileID: 2800000, guid: 57cef200b6c3f1c4cbde62090d2aa9c3, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
