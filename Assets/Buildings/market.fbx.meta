@@ -1058,6 +1058,7 @@ ModelImporter:
     102104: zsilip_004
     102106: zsilip_005
     102108: zsilip_006
+    102110: misc
     400000: areaLight1
     400002: Bar_1
     400004: Bar_2
@@ -2113,6 +2114,7 @@ ModelImporter:
     402104: zsilip_004
     402106: zsilip_005
     402108: zsilip_006
+    402110: misc
     2000000: Camera
     2100000: lambert3
     2100002: Color_F25
