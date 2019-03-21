@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnSpaceAnimals : MonoBehaviour
+public class SpawnSpace : MonoBehaviour
 {
     public Color GizmosColor = new Color(0.5f, 0.5f, 0.5f, 0.2f);
 
