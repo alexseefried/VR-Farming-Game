@@ -1636,6 +1636,8 @@ GameObject:
   - component: {fileID: 684099628}
   - component: {fileID: 684099627}
   - component: {fileID: 684099626}
+  - component: {fileID: 684099631}
+  - component: {fileID: 684099630}
   m_Layer: 5
   m_Name: BuyCowButton
   m_TagString: Untagged
@@ -1680,9 +1682,26 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1546201432}
-          m_MethodName: buyCow
-          m_Mode: 1
+        - m_Target: {fileID: 684099630}
+          m_MethodName: SetGazedAt
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 684099630}
+          m_MethodName: SetGazedAt
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1733,7 +1752,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 684099628}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 684099630}
+        m_MethodName: buyCow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &684099628
@@ -1773,6 +1803,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684099624}
   m_CullTransparentMesh: 0
+--- !u!114 &684099630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684099624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d318697dda4ab55498bf212d19015f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalArea1: {x: 0, y: 0, z: 0}
+  animalArea2: {x: 0, y: 0, z: 0}
+  cropArea: {x: 0, y: 0, z: 0}
+  timerDuration: 1.5
+--- !u!114 &684099631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684099624}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7494f7b5f5cce4986933b7cbb01408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &704752992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4602,7 +4660,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546201428}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d318697dda4ab55498bf212d19015f55, type: 3}
   m_Name: 
@@ -4610,6 +4668,7 @@ MonoBehaviour:
   animalArea1: {x: 0, y: 0, z: 0}
   animalArea2: {x: 0, y: 0, z: 0}
   cropArea: {x: 0, y: 0, z: 0}
+  timerDuration: 3
 --- !u!114 &1546201433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4874,7 +4933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousMenu: {fileID: 1071341879}
   menu: {fileID: 395607229}
-  timerDuration: 0.5
+  timerDuration: 1.5
 --- !u!114 &1570962286
 MonoBehaviour:
   m_ObjectHideFlags: 0

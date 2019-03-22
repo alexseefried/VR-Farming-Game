@@ -1,22 +1,56 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MarketplaceActions : MonoBehaviour
 {
     public Vector3 animalArea1;
     public Vector3 animalArea2;
     public Vector3 cropArea;
+    // Whether the Google Cardboard user is gazing at this button.
+    private bool isLookedAt = false;
+    // Count time the player has been gazing at the button.
+    private float lookTimer = 0f;
+    // How long the user can gaze at this before the button is clicked.
+    public float timerDuration = 3f;
+    private bool clicked;
     // Start is called before the first frame update
     void Start()
     {
- 
+        clicked = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        // While player is looking at this button.
+        if (isLookedAt)
+        {
 
+            // Increment the gaze timer.
+            lookTimer += Time.deltaTime;
+
+
+            // Gaze time exceeded limit - button is considered clicked.
+            if (lookTimer > timerDuration)
+            {
+
+                if (clicked == false)
+                {
+                    Debug.Log("clicked on this object");
+                    GetComponent<Button>().onClick.Invoke();
+                    clicked = true;
+                }
+            }
+        }
+
+        // Not gazing at this anymore, reset everything.
+        else
+        {
+            lookTimer = 0f;
+            clicked = false;
+        }
     }
 
     public void buyCow()
@@ -74,5 +108,9 @@ public class MarketplaceActions : MonoBehaviour
         }
 
     }
-    
+
+    public void SetGazedAt(bool gazedAt)
+    {
+        isLookedAt = gazedAt;
+    }
 }
