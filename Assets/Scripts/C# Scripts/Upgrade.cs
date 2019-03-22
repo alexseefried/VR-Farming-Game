@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Upgrade : MonoBehaviour
 {
-    public GameObject currencyScript;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +29,7 @@ public class Upgrade : MonoBehaviour
 
                 //subtract money from user
                 //if user has enough money, subtract from total and upgrade cow
-                if (currencyScript.GetComponent<CurrencySystem>().subtractMoney(80)) //returns boolean
+                if (GetComponent<CurrencySystem>().subtractMoney(80)) //returns boolean
                 {
                     //replace cow with larger cow
                     //Update user money
@@ -46,7 +45,7 @@ public class Upgrade : MonoBehaviour
             {
                 //subtract money from user
                 //if user has enough money, subtract from total and upgrade chicken
-                if (currencyScript.GetComponent<CurrencySystem>().subtractMoney(80))
+                if (GetComponent<CurrencySystem>().subtractMoney(80))
                 {
                     //replace chicken with larger chicken
                     //Update user money
@@ -62,7 +61,7 @@ public class Upgrade : MonoBehaviour
             {
                 //subtract money from user
                 //if user has enough money, subtract from total and upgrade pig
-                if (currencyScript.GetComponent<CurrencySystem>().subtractMoney(80))
+                if (GetComponent<CurrencySystem>().subtractMoney(80))
                 {
                     //replace pig with larger pig
                     //Update user money
@@ -81,5 +80,25 @@ public class Upgrade : MonoBehaviour
         //check if upgraded before upgrading
         //subtract money from user
         //if user has enough money, subtract from total and upgrade crop
+    }
+
+    public void upgradeBarn(GameObject barn)
+    {
+        Vector3 barnPosition = new Vector3(25.69f, 2.77f, 11.57f);
+        //subtract money from user
+        //if user has enough money, subtract from total and upgrade barn
+        if (GetComponent<CurrencySystem>().subtractMoney(200))
+        {
+            //remove Barn
+            Destroy(barn);
+            //create new barn lvl2
+            Instantiate(Resources.Load("BarnLv2"), barnPosition, Quaternion.identity);
+
+        }
+        else
+        {
+            //not enough money to upgrade
+        }
+            
     }
 }
