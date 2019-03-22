@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b5f1242100707354bbbc315ef8b8602d
+=======
+<<<<<<< HEAD:Assets/Animals.meta
+guid: cd39153dedec8a243afad75f0357347e
+=======
+guid: 23beff1939f196d46af076a39be56dc2
+>>>>>>> add menus on market place, functions along with market place:Assets/Scripts.meta
+>>>>>>> add menus on market place, functions along with market place
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
