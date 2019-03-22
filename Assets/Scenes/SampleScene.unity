@@ -2104,6 +2104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pig (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: f6e27061e5b287748ad006d27991d2d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: f6e27061e5b287748ad006d27991d2d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.57
@@ -3509,7 +3513,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pig
+  m_Text: '
 
 '
 --- !u!222 &1275668644
@@ -3853,7 +3857,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pig
+  m_Text: '
 
 '
 --- !u!222 &1324451998
@@ -5861,6 +5865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pig
       objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: f6e27061e5b287748ad006d27991d2d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: f6e27061e5b287748ad006d27991d2d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.32
@@ -6297,7 +6305,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pig
+  m_Text: '
 
 '
 --- !u!222 &1903942819
@@ -6620,7 +6628,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pig
+  m_Text: '
 
 '
 --- !u!222 &2122651258
